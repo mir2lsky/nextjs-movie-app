@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Movie from '../../components/movie';
 import styles from '../../styles/home.module.css';
+// API_URL을 여기서 정의하고 export하는 것은 안되므로 다른 constants.ts에
+// 정의한 것을 아래와 같이 import해서 사용해야 함.
 import { API_URL } from '../constants';
 
 export const metadata: Metadata = {
